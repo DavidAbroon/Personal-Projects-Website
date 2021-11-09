@@ -1,0 +1,4 @@
+#Ignore virtualenv files
+venv/
+#Don't include secret keys
+**/.env

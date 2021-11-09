@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+
+{% block page_content %}
+Hello, {{ user.username|default:'Guest' }}!
+Login is required to view the blog post in detail.
+{% endblock %}
