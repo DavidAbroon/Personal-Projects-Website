@@ -2,3 +2,5 @@
 venv/
 #Don't include secret keys
 **/.env
+#Don't include my bash script
+auto_pull_git.sh
