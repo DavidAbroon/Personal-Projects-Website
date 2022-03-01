@@ -12,7 +12,7 @@
     </div>
     <div class="col-md-6">
         <h5>About the project:</h5>
-        <p>{{ project.description|linebreaks }}</p>
+        <p>{{ project.description|linebreaks|urlize }}</p>
         <br>
         <h5>Technology used:</h5>
         <p>{{ project.technology }}</p>
